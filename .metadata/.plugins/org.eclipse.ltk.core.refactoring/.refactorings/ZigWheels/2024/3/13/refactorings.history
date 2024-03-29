@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 5 elements from project &apos;ZigWheels&apos;&#x0D;&#x0A;- Original project: &apos;ZigWheels&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     Test-Report-2024.03.21.12.09.45.html&#x0D;&#x0A;     Test-Report-2024.03.21.12.12.27.html&#x0D;&#x0A;     Test-Report-2024.03.24.12.34.52.html&#x0D;&#x0A;     Test-Report-2024.03.26.10.18.56.html&#x0D;&#x0A;     Test-Report-2024.03.26.14.54.53.html" description="Delete elements" element1="reports/Test-Report-2024.03.21.12.12.27.html" element2="reports/Test-Report-2024.03.24.12.34.52.html" element3="reports/Test-Report-2024.03.26.10.18.56.html" element4="reports/Test-Report-2024.03.21.12.09.45.html" element5="reports/Test-Report-2024.03.26.14.54.53.html" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="5" stamp="1711446146577" subPackages="false" version="1.0"/>
+</session>

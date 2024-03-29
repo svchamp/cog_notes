@@ -1,0 +1,31 @@
+14:46:17.927 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+14:46:17.962 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+14:46:17.985 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+14:46:17.986 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+14:46:17.988 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+14:46:18.008 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+14:46:18.026 [main] INFO  testCases.TC_003_LoginDDT - ** Starting TC_003_LoginDDT **
+14:46:18.037 [main] INFO  testCases.TC_003_LoginDDT - ** Starting TC_003_LoginDDT **
+14:46:18.049 [main] INFO  testCases.TC_003_LoginDDT - ** Starting TC_003_LoginDDT **
+14:46:18.060 [main] INFO  testCases.TC_003_LoginDDT - ** Starting TC_003_LoginDDT **
+14:46:18.074 [main] INFO  testCases.TC_003_LoginDDT - ** Starting TC_003_LoginDDT **
+11:02:52.410 [main] INFO  testCases.TC_002_LoginTest - ** Starting TC_002_LoginTest **
+11:02:52.423 [main] DEBUG testCases.TC_002_LoginTest - capturing debug logs....
+11:02:52.775 [main] INFO  testCases.TC_002_LoginTest - Clicked on MyAccount link
+11:02:54.287 [main] INFO  testCases.TC_002_LoginTest - Clicked Login link
+11:02:54.289 [main] INFO  testCases.TC_002_LoginTest - Entering valid email and password
+11:03:40.081 [main] INFO  testCases.TC_001_AccountRegistrationTest - *** starting TC_01_AccountRegistrationTest ***
+11:03:40.081 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on MyAccount link
+11:03:40.218 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on registration link
+11:03:42.322 [main] INFO  testCases.TC_001_AccountRegistrationTest - Entering customer details
+11:04:25.031 [main] ERROR testCases.TC_001_AccountRegistrationTest - test failed
+15:31:48.340 [main] INFO  testCases.TC_002_LoginTest - ** Starting TC_002_LoginTest **
+15:31:48.396 [main] DEBUG testCases.TC_002_LoginTest - capturing debug logs....
+15:31:48.780 [main] INFO  testCases.TC_002_LoginTest - Clicked on MyAccount link
+15:31:50.042 [main] INFO  testCases.TC_002_LoginTest - Clicked Login link
+15:31:50.048 [main] INFO  testCases.TC_002_LoginTest - Entering valid email and password
+15:32:33.310 [main] INFO  testCases.TC_001_AccountRegistrationTest - *** starting TC_01_AccountRegistrationTest ***
+15:32:33.310 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on MyAccount link
+15:32:33.468 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on registration link
+15:32:34.873 [main] INFO  testCases.TC_001_AccountRegistrationTest - Entering customer details
+15:33:06.974 [main] ERROR testCases.TC_001_AccountRegistrationTest - test failed

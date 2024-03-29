@@ -1,0 +1,21 @@
+10:55:15.662 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/core.xml'
+10:55:15.674 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/sharedStrings.xml'
+10:55:15.675 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/styles.xml'
+10:55:15.676 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/workbook.xml'
+10:55:15.679 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/worksheets/sheet1.xml'
+10:55:15.703 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+10:55:15.713 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+10:55:15.735 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save content types part
+10:55:15.737 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save package relationships
+10:55:15.739 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/app.xml'
+10:55:15.740 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/core.xml'
+10:55:15.742 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/sharedStrings.xml'
+10:55:15.744 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/styles.xml'
+10:55:15.745 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/workbook.xml'
+10:55:15.748 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/worksheets/sheet1.xml'
+10:55:15.750 [TestNG-tests-1] INFO  testCases.TC_002_UsedCars - ** Finished TC_002_UsedCars **
+10:55:34.300 [TestNG-tests-1] INFO  testCases.TC_003_LoginTest - ** Starting TC_003_LoginTest **
+10:55:34.304 [TestNG-tests-1] INFO  testCases.TC_003_LoginTest - Clicking on login button
+10:55:34.610 [TestNG-tests-1] INFO  testCases.TC_003_LoginTest - Clicking on Google-login button 
+10:55:34.796 [TestNG-tests-1] INFO  testCases.TC_003_LoginTest - Switching the tab
+10:55:38.808 [TestNG-tests-1] INFO  testCases.TC_003_LoginTest - Entering the email

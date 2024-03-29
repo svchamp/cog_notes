@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-26T15:07:49 IST" name="Suite" finished-at="2024-03-26T15:10:09 IST" duration-ms="140162">
+    <groups>
+    </groups>
+    <test started-at="2024-03-26T15:07:49 IST" name="ChromeTest" finished-at="2024-03-26T15:10:09 IST" duration-ms="140162">
+      <class name="testCases.TC_004_LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_004_LoginTest@765d7657]" started-at="2024-03-26T15:09:35 IST" name="setup" finished-at="2024-03-26T15:10:01 IST" duration-ms="25302" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLogin()[pri:0, instance:testCases.TC_004_LoginTest@765d7657]" started-at="2024-03-26T15:10:01 IST" name="verifyLogin" finished-at="2024-03-26T15:10:06 IST" duration-ms="5250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_004_LoginTest@765d7657]" started-at="2024-03-26T15:10:06 IST" name="tearDown" finished-at="2024-03-26T15:10:09 IST" duration-ms="3337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_004_LoginTest -->
+      <class name="testCases.TC_001_UpcomingBikes">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_001_UpcomingBikes@3e694b3f]" started-at="2024-03-26T15:07:50 IST" name="setup" finished-at="2024-03-26T15:08:05 IST" duration-ms="14924" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyUpcomingBikes()[pri:0, instance:testCases.TC_001_UpcomingBikes@3e694b3f]" started-at="2024-03-26T15:08:05 IST" name="verifyUpcomingBikes" finished-at="2024-03-26T15:08:24 IST" duration-ms="19452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUpcomingBikes -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_UpcomingBikes@3e694b3f]" started-at="2024-03-26T15:08:24 IST" name="tearDown" finished-at="2024-03-26T15:08:29 IST" duration-ms="4520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_001_UpcomingBikes -->
+      <class name="testCases.TC_002_UsedCars">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_002_UsedCars@5fe94a96]" started-at="2024-03-26T15:08:29 IST" name="setup" finished-at="2024-03-26T15:08:40 IST" duration-ms="11086" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyUsedCars()[pri:0, instance:testCases.TC_002_UsedCars@5fe94a96]" started-at="2024-03-26T15:08:40 IST" name="verifyUsedCars" finished-at="2024-03-26T15:08:51 IST" duration-ms="11055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUsedCars -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_002_UsedCars@5fe94a96]" started-at="2024-03-26T15:08:51 IST" name="tearDown" finished-at="2024-03-26T15:08:54 IST" duration-ms="3303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_002_UsedCars -->
+      <class name="testCases.TC_003_LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_003_LoginTest@443118b0]" started-at="2024-03-26T15:08:54 IST" name="setup" finished-at="2024-03-26T15:09:26 IST" duration-ms="31488" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLogin()[pri:0, instance:testCases.TC_003_LoginTest@443118b0]" started-at="2024-03-26T15:09:26 IST" name="verifyLogin" finished-at="2024-03-26T15:09:32 IST" duration-ms="6249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_003_LoginTest@443118b0]" started-at="2024-03-26T15:09:32 IST" name="tearDown" finished-at="2024-03-26T15:09:35 IST" duration-ms="3487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_003_LoginTest -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,31 @@
+16:16:43.972 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save package relationships
+16:16:43.983 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/app.xml'
+16:16:43.984 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/core.xml'
+16:16:43.986 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/sharedStrings.xml'
+16:16:43.987 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/styles.xml'
+16:16:43.987 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/workbook.xml'
+16:16:43.990 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/worksheets/sheet1.xml'
+16:16:44.005 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:16:44.006 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:16:44.028 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save content types part
+16:16:44.037 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save package relationships
+16:16:44.042 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/app.xml'
+16:16:44.043 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/core.xml'
+16:16:44.046 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/sharedStrings.xml'
+16:16:44.047 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/styles.xml'
+16:16:44.048 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/workbook.xml'
+16:16:44.051 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/worksheets/sheet1.xml'
+16:16:44.054 [main] INFO  testCases.TC_002_UsedCars - ** Finished TC_002_UsedCars **
+16:16:54.148 [main] INFO  testCases.TC_003_LoginTest - ** Starting TC_003_LoginTest **
+16:16:54.154 [main] INFO  testCases.TC_003_LoginTest - Clicking on login button
+16:17:02.767 [main] INFO  testCases.TC_003_LoginTest - Clicking on Google-login button 
+16:17:03.113 [main] INFO  testCases.TC_003_LoginTest - Switching the tab
+16:17:07.201 [main] INFO  testCases.TC_003_LoginTest - Entering the email
+16:17:07.525 [main] INFO  testCases.TC_003_LoginTest - Clicking on next button
+16:17:08.721 [main] INFO  testCases.TC_003_LoginTest - Invalid login message found
+16:17:08.722 [main] INFO  testCases.TC_003_LoginTest - ** Finished TC_003_LoginTest **
+16:17:19.372 [main] INFO  testCases.TC_004_LoginTest - ** Starting TC_004_LoginTest **
+16:17:19.392 [main] INFO  testCases.TC_004_LoginTest - Clicking on login button
+16:17:59.411 [main] INFO  testCases.TC_004_LoginTest - Clicking on Google-login button 
+16:18:00.199 [main] INFO  testCases.TC_004_LoginTest - Switching the tab
+16:18:04.232 [main] INFO  testCases.TC_004_LoginTest - Entering blank email

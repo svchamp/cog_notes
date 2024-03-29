@@ -1,0 +1,50 @@
+package testCases;
+
+import java.util.Set;
+
+import org.testng.annotations.Test;
+
+import pageObjects.GoogleLogin;
+import pageObjects.HomePage;
+import testBase.BaseClass;
+
+public class TC_004_LoginTest extends BaseClass {
+
+	@Test
+	public void verifyLogin() throws InterruptedException {
+		logger.info("** Starting TC_003_LoginTest **");
+		HomePage hp=new HomePage(driver);
+		String parent=driver.getWindowHandle();
+		
+		logger.info("Clicking on login button");
+		hp.clickButtonLogin();
+		logger.info("Clicking on Google-login button ");
+		hp.clickGoogleLoginButton();
+		logger.info("Switching the tab");
+		Set<String> handles=driver.getWindowHandles();
+		for(String s:handles) {
+			if(!s.equals(parent)){
+				driver.switchTo().window(s);
+				System.out.println(driver.getTitle());
+				break;
+			}
+		}
+		Thread.sleep(4000);
+		
+		GoogleLogin gl=new GoogleLogin(driver,myWait);
+		logger.info("Entering the email");
+		gl.enterEmail("abc@cog.com");
+		logger.info("Clicking on next button");
+		gl.buttonNext();
+		try {
+			String invalidLoginMessage=gl.getInvalidLoginMessage();
+			logger.info("Invalid login message found");
+			//Printing invalid login message
+			System.out.println(invalidLoginMessage);
+		}catch(Exception e) {
+			System.out.println("Invalid login message not found");
+		}
+		
+		logger.info("** Finished TC_003_LoginTest **");
+	}
+}

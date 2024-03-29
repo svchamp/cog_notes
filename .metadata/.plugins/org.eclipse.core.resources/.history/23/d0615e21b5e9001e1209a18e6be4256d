@@ -1,0 +1,9 @@
+package testRunner;
+
+import io.cucumber.junit.Cucumber;
+
+@RunWith(Cucumber.class)
+@CucumberOptions(features= {".//FeatureFiles"})
+public class TestRun {
+	
+}

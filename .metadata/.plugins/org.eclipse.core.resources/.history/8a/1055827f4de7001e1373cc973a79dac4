@@ -1,0 +1,2 @@
+12:05:22.207 [TestNG-tests-1] INFO  testCases.TC_004_LoginTest - Invalid login message found
+12:05:22.215 [TestNG-tests-1] INFO  testCases.TC_004_LoginTest - ** Finished TC_004_LoginTest **

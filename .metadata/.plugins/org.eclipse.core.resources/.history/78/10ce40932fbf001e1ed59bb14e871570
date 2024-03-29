@@ -1,0 +1,17 @@
+package cycle;
+import java.util.*;
+
+public class UserInterface {
+	public static CycleInfo extractDetails(String cycleDetails) {
+		String[] x=cycleDetails.split(":");
+		CycleInfo obj=new CycleInfo(x[0],x[1],x[2],x[3],Double.parseDouble(x[4]));
+		return obj;
+	}
+	
+	public static void main(String args[]) {
+		Scanner sc=new Scanner(System.in);
+		String s1="CYCAS345:Hi-Fast Gangster x89:Road Cycle:yes:24000";
+		CycleInfo obj=extractDetails(s1);
+		System.out.println("Bill amount to be paid:"+obj.calculateBillAmount());
+	}
+}

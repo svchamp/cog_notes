@@ -1,0 +1,13 @@
+package Fantasy;
+import java.util.*;
+
+public class FantasyCreature {
+	private Map<String,Integer> fantasyCreatureMap=new HashMap<>();
+
+	public Map<String,Integer> getFantasyCreatureMap() {
+	return fantasyCreatureMap;}
+
+	public void setFantasyCreatureMap(Map<String,Integer> fantasyCreatureMap) {
+	this.fantasyCreatureMap = fantasyCreatureMap;}
+	
+}

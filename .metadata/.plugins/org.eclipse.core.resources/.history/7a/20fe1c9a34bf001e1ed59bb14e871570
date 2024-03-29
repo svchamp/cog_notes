@@ -1,0 +1,78 @@
+package Fantasy;
+import java.util.*;
+import java.util.stream.*;
+
+public class FantasyCreature {
+	private Map<String,Integer> fantasyCreatureMap=new HashMap<>();
+
+	public Map<String,Integer> getFantasyCreatureMap() {
+	return fantasyCreatureMap;}
+
+	public void setFantasyCreatureMap(Map<String,Integer> fantasyCreatureMap) {
+	this.fantasyCreatureMap = fantasyCreatureMap;}
+	
+	public int findTheHitPointsForTheGivenCreature(String creature) {
+		if(fantasyCreatureMap.containsKey(creature)) {
+			return fantasyCreatureMap.get(creature);
+		}
+		return -1;
+	}
+	public List<String> findTheCreatureNamesBasedOnTheHitpoints(){
+		List<String> res=fantasyCreatureMap.entrySet().stream()
+		
+		return null;
+	}
+	public static void main(String[] args) {
+		FantasyCreature fs=new FantasyCreature();
+		List<String> list=new ArrayList<String>();
+		Map<String,Integer> map=new HashMap<>();
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter number of creature to be added");
+		int n=sc.nextInt();
+		System.out.println("Enter the creatures (CreatureName: HitPoints)");
+		String[] creatureDetails=new String[n];
+		for(int i=0;i<n;i++) {
+			creatureDetails[i]=sc.next();
+		}
+		
+		for(int i=0;i<creatureDetails.length;i++) {
+			String[] a=creatureDetails[i].split(":");
+			map.put(a[0], Integer.parseInt(a[1]));
+			fs.setFantasyCreatureMap(map);
+		}
+		
+		System.out.println("Enter the fantasy creature name");
+		String str=sc.next();
+		
+		int count=fs.findTheHitPointsForTheGivenCreature(str);
+		if(count>0) {
+			System.out.println("The Hit Points for the "+str+" is "+count);
+		}
+		else {
+			System.out.println("No fantasy creature were found");
+		}
+		
+		list=fs.findTheCreatureNamesBasedOnTheHitpoints();
+		
+		if(list.size()>=1) {
+			System.out.println("Fantasy Creatures based on the condition are ");
+			for(String s:list) {
+				System.out.println(s);
+			}
+		}
+		else {
+			System.out.println("No fantasy creature were found for the given condition");
+		}
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
